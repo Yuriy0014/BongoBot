@@ -20,9 +20,9 @@ def command(message):
 
             if post_text[0] != None:
                 bot.send_message(id_channel, post_text[0])
-                time.sleep(60)
+                time.sleep(3600)
             else:
-                time.sleep(60)
+                time.sleep(3600)
     else:
         bot.send_message(message.from_user.id,
                          "Я тебя не понимаю. Напиши Старт")
