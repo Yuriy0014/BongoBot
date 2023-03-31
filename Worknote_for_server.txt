@@ -1,0 +1,4 @@
+cd ../home/bingobot/
+source venvName/bin/activate
+ls -ltrh
+python3 bot.py
