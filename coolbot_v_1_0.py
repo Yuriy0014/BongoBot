@@ -1,5 +1,5 @@
-import telebot
 import time
+import telebot
 import requests
 from bs4 import BeautifulSoup
 
@@ -20,9 +20,9 @@ def command(message):
 
             if post_text[0] != None:
                 bot.send_message(id_channel, post_text[0])
-                time.sleep(3600)
+                time.sleep(21600) # Раз в 6 часов
             else:
-                time.sleep(3600)
+                time.sleep(21600) # Раз в 6 часов
     else:
         bot.send_message(message.from_user.id,
                          "Я тебя не понимаю. Напиши Старт")
